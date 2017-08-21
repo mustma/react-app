@@ -1,0 +1,1 @@
+export const GLOBAL_API_DOMAIN = 'https://www.xbfreezer.com';   //接口地址

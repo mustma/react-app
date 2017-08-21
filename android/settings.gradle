@@ -1,0 +1,15 @@
+rootProject.name = 'kxtxApp'
+
+include ':app'
+
+include ':react-native-navigation'
+project(':react-native-navigation').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-navigation/android/app/')
+
+include ':react-native-camera'
+project(':react-native-camera').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-camera/android')
+
+include ':react-native-amap3d'
+project(':react-native-amap3d').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-amap3d/android')
+
+include ':react-native-orientation', ':app'
+project(':react-native-orientation').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-orientation/android')

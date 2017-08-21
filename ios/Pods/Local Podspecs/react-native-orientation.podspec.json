@@ -1,0 +1,32 @@
+{
+  "name": "react-native-orientation",
+  "version": "1.17.0",
+  "summary": "Listen to device orientation changes in react-native and set preferred orientation on screen to screen basis",
+  "description": "Listen to device orientation changes in react-native and set preferred orientation on screen to screen basis",
+  "license": "ISC",
+  "authors": {
+    "name": "Yamill Vallecillo",
+    "email": "yamill@gmail.com",
+    "url": "github.com/yamill"
+  },
+  "homepage": "https://github.com/yamill/react-native-orientation#readme",
+  "source": {
+    "git": "https://github.com/yamill/react-native-orientation.git",
+    "tag": "1.17.0"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": "7.0"
+  },
+  "preserve_paths": [
+    "README.md",
+    "package.json",
+    "index.js"
+  ],
+  "source_files": "iOS/RCTOrientation/*.{h,m}",
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}
