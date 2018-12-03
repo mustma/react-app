@@ -18,5 +18,6 @@ const a = 11;
 
 ### 百度
 > 链接
-| 跳转
-[www.baidu.com]#百度
+
+
+[百度](www.baidu.com)
