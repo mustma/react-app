@@ -10,3 +10,6 @@
     7、react-native-camera 调用摄像头
     8、react-native-orientation 控制旋转
     9、react-native-amap3d 高德地图
+
+```ruby
+const a = 11;
